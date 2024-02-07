@@ -40,10 +40,14 @@ Simple calculator that will
   - Repeat
 
 Operations:
-  - "+" : addition
-  - "-" : subtraction
-  - "*" : multiplication
-  - "/" : division
+  - "+"  : addition
+  - "-"  : subtraction
+  - "*"  : multiplication
+  - "/"  : division
+  - ">>" : right shift
+  - "<<" : left shift
+  - "%"  : modulus
+  - "**" : exponential
 
 Error conditions:
   - Invalid operator --> Program should exit
