@@ -56,6 +56,7 @@ Error conditions:
 # NOTE - Hint:  Look at  https://docs.python.org/3/library/operator.html
 
 import operator
+import sys
 
 # ------------------------------------------------------------------------
 # Constants
@@ -92,13 +93,17 @@ def get_user_input():
         Returns tuple:  (number, number, function) or 
                         (None, None, None) if inputs invalid
     """
-    # NOTE - Use "try"/"except" statements to allow code to handle errors gracefully.      
+    
+    # NOTE - Use "try"/"except" statements to allow code to handle errors gracefully.     
+
+    
     try:
         # NOTE - Use "pass" statements to allow code to be run without having to 
-        # NOTE - fill out the contents.  This pass statement should be removed    
-        number1 = float(input("Enter first number: "))
-        number2 = float(input("Enter second number: "))
-        op      = input("Enter operation: ")
+        # NOTE - fill out the contents.  This pass statement should be removed 
+        
+        number1 = int(raw_input("Enter first number: "))
+        number2 = int(raw_input("Enter second number: "))
+        op      = raw_input("Enter operation: ")
     
         op = operators[op]
         
@@ -135,6 +140,14 @@ if __name__ == "__main__":
 
     # NOTE - Use "pass" statements to allow code to be run without having to 
     # NOTE - fill out the contents.  This pass statement should be removed    
+    
+    python_ver = sys.version_info[0]
+
+    # If python version is 3, then it defines raw_input as input
+    if python_ver == 3:
+        def raw_input(x):
+            return input(x)
+
     while(True):
         (n1, n2, operation) = get_user_input()
         
