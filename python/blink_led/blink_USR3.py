@@ -41,9 +41,11 @@ import Adafruit_BBIO.GPIO as GPIO
 import time
 
 if __name__ == "__main__":
-
+    
+    # Setting up the LED in USR3
     GPIO.setup("USR3", GPIO.OUT)
     
+    # Code to turn on and off LED 
     while True:
             GPIO.output("USR3", GPIO.HIGH)
             time.sleep(0.1)

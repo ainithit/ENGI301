@@ -168,7 +168,7 @@ class Button():
                      False - Button is not pressed
         """
         # HW#4 TODO: (one line of code)
-        return self.pin == HIGH
+        return self.pin == LOW
         #   Remove "pass" and return the comparison of input value of the GPIO pin of 
         #   the button (i.e. self.pin) to the "pressed value" of the class 
 
