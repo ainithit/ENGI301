@@ -27,8 +27,9 @@
 <h3>5. Download pybela → python3.8 -m pip install pybela<h3>
 <h1> <h1>
 <h2>Coding the music player onto the BELA Mini<h2>
-<h3>The code for the music player can be found in the Project_01_Code folder in the render.cpp file.<h3>
-<h4>This code can be pasted into the BELA IDE. Do not forget to upload the music files as .wav and edit the code accordingly.<h4>
+<h3>1. The code for the music player can be found in the Project_01_Code folder in the render.cpp file.<h3>
+<h4>a. This code can be pasted into the BELA IDE. Do not forget to upload the music files as .wav and edit the code accordingly.<h4>
+<h4>b. That's it! Have fun coding your own low-latency music player on the BELA Mini!<h4>
 
 
 
