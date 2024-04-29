@@ -11,3 +11,11 @@
 <h3>4. There you go! You're ready to begin programming on the BELA Mini!<h3>
 <h1> <h1>
 <h2>Coding with Python on the BELA Mini<h2>
+<h3>1. Connect the BELA Mini to the internet (https://learn.bela.io/using-bela/bela-techniques/connecting-to-wifi/)<h3>
+<h4>a. Connect the wifi adapter to the BELA Mini system.<h4>
+<h4>b. From the terminal on your computer, ssh into the BELA system by typing in ssh root@bela.local<h4>
+<h4>c. You should see the prompt "root@bela:~# lsusb" if your BELA has been connected.<h4>
+<h4>d. Get the name of your wifi device by running the command "ip a." The name of the device should be wlanX, where X is a number.<h4>
+<h4>e. Next, we will edit the interface list by running the command line "nano /etc/network/interfaces." Follow the comments within the file to edit the interface list. Press CTRL+X to exit and Y to save changes.<h4>
+<h4>f. Run the following command, replacing YourNetworkName with the name of your Wifi network and YourNetworkPassword with the Wifi network’s password: wpa_passphrase YourNetworkName YourNetworkPassword >>/etc/wpa_supplicant/wpa_supplicant.conf <h4>
+<h4>g. Run the following command to reset your device: ifdown wlan0; ifup wlan0;<h4>
