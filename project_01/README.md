@@ -1,7 +1,6 @@
 <h1>HIFI Music Player<h1>
-
- <h2>Getting started with the BELA Mini<h2>
- <h3>1. Flashing the micro SD card with the latest Bela software (https://learn.bela.io/using-bela/bela-techniques/managing-your-sd-card/)<h3>
+<h2>Getting started with the BELA Mini<h2>
+<h3>1. Flashing the micro SD card with the latest Bela software (https://learn.bela.io/using-bela/bela-techniques/managing-your-sd-card/)<h3>
 <h4>a. Download and install Balena Etcher, an open-source software program used for copying image files into stoage media.<h4>
 <h4>b. Download the latest Bela software image from the Bela Github Page (https://github.com/BelaPlatform/bela-image-builder/releases/).<h4>
 <h4>c. Insert the micro SD card into the computer and flash the image by following instructions displayed on Balena Etcher.<h4>
