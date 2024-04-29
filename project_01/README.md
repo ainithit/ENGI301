@@ -9,5 +9,5 @@
 <h4>a. The SD card should boot properly given that the micro SD card was flashed correctly.<h4>
 <h3>3. Load the BELA IDE by opening a web browser (chrome is recommended) and going to http://bela.local<h3>
 <h3>4. There you go! You're ready to begin programming on the BELA Mini!<h3>
-
+<h1><h1>
 <h2>Coding with Python on the BELA Mini<h2>
