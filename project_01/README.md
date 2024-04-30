@@ -26,6 +26,10 @@
 <h4>a. Follow steps found here: https://gist.github.com/dev-sareno/1d2bf9cad3a0dc281f0bb16d501a4388<h4>
 <h3>5. Download pybela → python3.8 -m pip install pybela<h3>
 <h1> <h1>
+<h2>Hardware of the BELA Mini music player<h2>
+<h3>1. Instructions to hardware and build instructions can be found on hackster.io<h3>
+<h4>a. https://www.hackster.io/nithitbc/bela-mini-music-player-54241b<h4>
+<h1> <h1>
 <h2>Coding the music player onto the BELA Mini<h2>
 <h3>1. The code for the music player can be found in the Project_01_Code folder in the render.cpp file.<h3>
 <h4>a. This code can be pasted into the BELA IDE. Do not forget to upload the music files as .wav and edit the code accordingly.<h4>
